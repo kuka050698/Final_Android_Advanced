@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.DescriptionActivity">
+
+    <ImageView
+        android:id="@+id/contact_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="52dp"
+        android:src="@drawable/default"
+        app:layout_constraintLeft_toLeftOf="parent"
+
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/contact_descr_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="1dp"
+        android:layout_marginTop="171dp"
+        android:text="DSD"
+        app:layout_constraintEnd_toEndOf="@+id/mob_descr_name"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/mob_descr_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="19dp"
+        android:text="dsds"
+        app:layout_constraintStart_toStartOf="@+id/work_descr_number"
+        app:layout_constraintTop_toBottomOf="@+id/contact_descr_name" />
+
+    <TextView
+        android:id="@+id/home_descr_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="1dp"
+        android:layout_marginTop="16dp"
+        android:text="fdfd"
+        app:layout_constraintEnd_toEndOf="@+id/mob_descr_name"
+        app:layout_constraintTop_toBottomOf="@+id/mob_descr_name" />
+
+    <TextView
+        android:id="@+id/work_descr_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="dfdsd"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/home_descr_name" />
+
+    <TextView
+        android:id="@+id/contact_descr_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="16dp"
+        android:text="fdfd"
+        app:layout_constraintStart_toStartOf="@+id/work_descr_number"
+        app:layout_constraintTop_toBottomOf="@+id/work_descr_number" />
+
+
+</android.support.constraint.ConstraintLayout>
